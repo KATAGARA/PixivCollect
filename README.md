@@ -137,7 +137,7 @@ PixivAlbum项目中此功能为了界面美观开发的，会在0.1.0版本移�
 
 # 后续计划
 ~~（明年计划）~~ <br>
-如有功能请求或现有功能建议，可以在 [Issues](/issues) 中提出，新建 issues 时在在右边选择相应 Label。
+如有功能请求或现有功能建议，可以在 [Issues](https://github.com/KAKETAKAGE/PixivCollect/issues) 中提出，新建 issues 时在在右边选择相应 Label。
 - [ ] 解决启动慢、打包后过大（知道原因，但不是大问题）
 - [ ] 异常
 - [ ] 日志
