@@ -26,5 +26,12 @@
 5. 把 cookie 中的内容全部复制
 
 
-6. cookie 黏贴到下图中的 cookie.txt 文件中 <br>
-   ![cookie文件](https://raw.githubusercontent.com/KAKETAKAGE/PixivCollect/master/.github/imgs/cookie_3.png)
+6. 以下两种方法都可以
+   1. cookie 黏贴到下图中的 cookie.txt 文件中，如第7步。<br>
+   2. 在 PixivAlbum 设置界面中点击修改 Cookie 后，ctrl+v粘贴，如第8步。 此方法是把当前剪切板的内容写入 cookie.txt 文件中
+   
+
+7. ![cookie文件](https://raw.githubusercontent.com/KAKETAKAGE/PixivCollect/master/.github/imgs/cookie_3.png)
+
+
+8. ![粘贴cookie](https://raw.githubusercontent.com/KAKETAKAGE/PixivAlbum/master/.github/imgs/paste_cookie.png)

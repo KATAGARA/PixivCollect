@@ -3,7 +3,7 @@
   <br>
   <br>
   <a href="/LICENSE"><img src="https://img.shields.io/badge/license-GPL%203.0-brightgreen.svg" alt="GPL 3.0 LICENSE"></a>
-  <a href="/releases/latest"><img src="https://img.shields.io/badge/release-v0.0.1-blue.svg" alt="Pixiv Collect Releases"></a>
+  <a href="/releases"><img src="https://img.shields.io/badge/release-v0.0.1-blue.svg" alt="Pixiv Collect Releases"></a>
   <img src="https://img.shields.io/badge/Python-3.8-lightgrey" alt="Python">
 </h1>
 
@@ -15,15 +15,19 @@
   - [数据库信息](#数据库信息)
 - [后续计划](#后续计划)
 - [您可能会遇到包括但不限于以下问题](#您可能会遇到包括但不限于以下问题)
+- [支持和捐助](#支持和捐助)
 <br><br>
   
 # 注意
+_本项目不提供任何翻墙工具和方法_
+
 **本项目目前最新版本为测试版~~的测试版~~**<br>
-**PixivCollect与PixivAlbum项目开发周期已有快两个月了，因个人原因非重大BUG下次更新应该在明年初了。**<br>
+**[PixivCollect](https://github.com/KAKETAKAGE/PixivCollect) 与 [PixivAlbum](https://github.com/KAKETAKAGE/PixivAlbum) 项目开发周期已有快两个月了，因个人原因非重大BUG下次更新应该在明年初了。**<br>
 **因中途被搁置了半年多（懒），！！！请忽然源代码中的注释 ！！！**
 
-本项目是为PixivAlbum项目服务的。需要安装数据库：[MongoDB](https://www.mongodb.com/try/download/community) [教程](/docs/MongoDB.md)。<br>
-请在执行目录下放置保存了Pixiv登入后cookie的cookie.txt文件 [教程](/docs/Cookie.md)。
+本项目是为 [PixivAlbum](https://github.com/KAKETAKAGE/PixivAlbum) 项目服务的。<br>
+需要安装数据库：[MongoDB](https://www.mongodb.com/try/download/community) [教程](/.github/docs/MongoDB.md)。<br>
+请在执行目录下放置保存了 [Pixiv](https://www.pixiv.net/) 登入后cookie的cookie.txt文件 [教程](/.github/docs/Cookie.md)。
 
 
 # 介绍
@@ -72,6 +76,10 @@
 ```
 .\pixiv_collect.exe -t pc -p E:/Pixiv -pb T -db Pixiv -pt 27017 -d 20210531 -pa [[!overall!],[!original!],[!!],1,[!manga!]] -wr T -pn [2,8,15]
 ```
+### 已下载图片跳过
+已下载图片跳过功能无法关闭（必须修改源码才能关闭）。现在只通过判断作品 upload_date 是否更新，image 集合中已下图片张数是否正确来判断是否需要下载图片。
+这是目前想到的适用于 PixivAlbum 较好的方法，如有建议欢迎提出。
+
 
 ## 图片移动
 * `-t --type`：固定值：`im`
@@ -113,7 +121,7 @@
 
 ## 数据库信息
 
-PixivAlbum项目中此功能为了界面美观开发的，会在0.1.0版本移除 (~~何年何月我也不知~~)。
+PixivAlbum项目中此功能为了界面美观开发的，会在0.1.0版本移除。
 
 * `-t --type`：固定值：`gdi`
 * `-db --dbName`：`str` 数据库名
@@ -128,7 +136,8 @@ PixivAlbum项目中此功能为了界面美观开发的，会在0.1.0版本移�
 ```
 
 # 后续计划
-~~（明年计划）~~
+~~（明年计划）~~ <br>
+如有功能请求或现有功能建议，可以在 [Issues](/issues) 中提出，新建 issues 时在在右边选择相应 Label。
 - [ ] 解决启动慢、打包后过大（知道原因，但不是大问题）
 - [ ] 异常
 - [ ] 日志
@@ -151,3 +160,8 @@ PixivAlbum项目中此功能为了界面美观开发的，会在0.1.0版本移�
 * 功能不完善
 * 程序无法运行
 * 下载R18图然后社死
+
+# 支持和捐助
+如果您感觉本项目帮到了您，您可以对我进行支持和捐助，不胜感激 (>▽<)
+
+![收款码](https://raw.githubusercontent.com/KAKETAKAGE/PixivCollect/master/.github/imgs/QR_code.jpg)
