@@ -15,11 +15,9 @@
   - [数据库信息](#数据库信息)
 - [后续计划](#后续计划)
 - [您可能会遇到包括但不限于以下问题](#您可能会遇到包括但不限于以下问题)
-- [支持和捐助](#支持和捐助)
 <br><br>
   
 # 注意
-_本项目不提供任何翻墙工具和方法_
 
 **本项目目前最新版本为测试版~~的测试版~~**<br>
 **[PixivCollect](https://github.com/KAKETAKAGE/PixivCollect) 与 [PixivAlbum](https://github.com/KAKETAKAGE/PixivAlbum) 项目开发周期已有快两个月了，因个人原因非重大BUG下次更新应该在明年初了。**<br>
@@ -160,8 +158,3 @@ PixivAlbum项目中此功能为了界面美观开发的，会在0.1.0版本移�
 * 功能不完善
 * 程序无法运行
 * 下载R18图然后社死
-
-# 支持和捐助
-如果您感觉本项目帮到了您，您可以对我进行支持和捐助，不胜感激 (>▽<)
-
-![收款码](https://raw.githubusercontent.com/KAKETAKAGE/PixivCollect/master/.github/imgs/QR_code.jpg)
