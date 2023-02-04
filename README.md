@@ -13,15 +13,9 @@
   - [图片移动](#图片移动)
   - [分析图片](#分析图片)
   - [数据库信息](#数据库信息)
-- [后续计划](#后续计划)
-- [您可能会遇到包括但不限于以下问题](#您可能会遇到包括但不限于以下问题)
 <br><br>
   
 # 注意
-
-**本项目目前最新版本为测试版~~的测试版~~**<br>
-**[PixivCollect](https://github.com/KAKETAKAGE/PixivCollect) 与 [PixivAlbum](https://github.com/KAKETAKAGE/PixivAlbum) 项目开发周期已有快两个月了，因个人原因非重大BUG下次更新应该在明年初了。**<br>
-**因中途被搁置了半年多（懒），！！！请忽然源代码中的注释 ！！！**
 
 本项目是为 [PixivAlbum](https://github.com/KAKETAKAGE/PixivAlbum) 项目服务的。<br>
 需要安装数据库：[MongoDB](https://www.mongodb.com/try/download/community) [教程](/.github/docs/MongoDB.md)。<br>
@@ -132,29 +126,3 @@ PixivAlbum项目中此功能为了界面美观开发的，会在0.1.0版本移�
 {"collections": 25, "documents": 30774406, "data_size": 15778838898.0, "index_size": 1604812800.0}
 {"mode": "rank", "rank_date": 20210601, "params": "default", "total_illust": 7060, "real_illust": 4364, "download_illust": 1140, "download_image": 5317, "download_gif": 102, "use_time": 1491, "finish_time": "2021-06-02_11:56:51"}
 ```
-
-# 后续计划
-~~（明年计划）~~ <br>
-如有功能请求或现有功能建议，可以在 [Issues](https://github.com/KAKETAKAGE/PixivCollect/issues) 中提出，新建 issues 时在在右边选择相应 Label。
-- [ ] 解决启动慢、打包后过大（知道原因，但不是大问题）
-- [ ] 异常
-- [ ] 日志
-- [ ] 改为多线程
-- [ ] 消息传递
-- [ ] 参数
-- [ ] 日中Tag
-- [ ] 数据库结构修改
-- [ ] 添加List模块，现计划：
-  1. 用户收藏
-  2. 画师作品
-  3. illust_id列表
-  4. 一直循环获取最新的作品
-  
-# 您可能会遇到包括但不限于以下问题
-
-* ~~开发者跑路~~
-* 代码丑，代码结构混乱
-* 莫名其妙（~~可能开发者都不知道~~）的错误
-* 功能不完善
-* 程序无法运行
-* 下载R18图然后社死
